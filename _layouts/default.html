@@ -12,26 +12,31 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("pre").forEach((block) => {
-        // Crear botón
-        let button = document.createElement("button");
-        button.innerText = "Copiar";
-        button.classList.add("copy-btn");
-        
-        // Insertar antes del bloque <pre>
-        block.parentNode.insertBefore(button, block);
+        // Crear un contenedor para envolver el código y el botón
+        let wrapper = document.createElement("div");
+        wrapper.classList.add("code-wrapper");
 
-        // Copiar contenido al hacer clic
+        // Crear el botón de copiado
+        let button = document.createElement("button");
+        button.innerHTML = '<span class="material-icons">content_copy</span>';
+        button.classList.add("copy-btn");
+
+        // Insertar el botón dentro del wrapper
+        wrapper.appendChild(button);
+        block.parentNode.insertBefore(wrapper, block);
+        wrapper.appendChild(block);
+
+        // Evento para copiar el contenido del código
         button.addEventListener("click", () => {
             let code = block.innerText;
             navigator.clipboard.writeText(code).then(() => {
-                button.innerText = "Copiado!";
-                setTimeout(() => button.innerText = "Copiar", 2000);
+                button.innerHTML = '<span class="material-icons">check</span>';
+                setTimeout(() => button.innerHTML = '<span class="material-icons">content_copy</span>', 2000);
             });
         });
     });
 });
 </script>
-
 <body>
     <section>
         {{ content }} <!-- Aquí se renderiza el contenido de index.html -->
