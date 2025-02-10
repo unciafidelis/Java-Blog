@@ -9,6 +9,29 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rouge/3.27.0/themes/github.min.css">
 </head>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("pre").forEach((block) => {
+        // Crear botón
+        let button = document.createElement("button");
+        button.innerText = "Copiar";
+        button.classList.add("copy-btn");
+        
+        // Insertar antes del bloque <pre>
+        block.parentNode.insertBefore(button, block);
+
+        // Copiar contenido al hacer clic
+        button.addEventListener("click", () => {
+            let code = block.innerText;
+            navigator.clipboard.writeText(code).then(() => {
+                button.innerText = "Copiado!";
+                setTimeout(() => button.innerText = "Copiar", 2000);
+            });
+        });
+    });
+});
+</script>
+
 <body>
     <section>
         {{ content }} <!-- Aquí se renderiza el contenido de index.html -->
