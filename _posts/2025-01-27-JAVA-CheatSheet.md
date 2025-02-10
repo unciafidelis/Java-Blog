@@ -8,8 +8,6 @@ tags: [estructura]
 
 <h1>📌 Cheatsheet de Java</h1>  
 
-## **📌 Estructuras de Datos en Java**  
-
 ### **1️⃣ Listas (ArrayList - Estructura Lineal)**
 ```java
 import java.util.ArrayList; // Importación necesaria
