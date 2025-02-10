@@ -1,0 +1,14 @@
+# _config.yml
+title: PM Blog
+description: Un blog para la administración de proyectos
+baseurl: "/BlogPM"  # Si tu sitio está en el dominio raíz (ej. https://misitio.com), déjalo vacío
+url: "http://unciafidelis.github.io"  # Tu dominio principal, por ejemplo, https://misitio.com
+markdown: kramdown
+
+# Opcional: si quieres que los posts tengan un formato de URL específico
+# Aquí se utiliza un formato que genera URLs amigables
+permalink: /:year/:month/:day/:title.html
+
+# Otras configuraciones personalizadas
+include:
+  - styles.css

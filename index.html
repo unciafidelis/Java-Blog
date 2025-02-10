@@ -1,0 +1,15 @@
+---
+layout: default
+title: "PM Blog"
+---
+<h1>PM Blog >.</h1>
+<div class="container">
+    <div class="post-container">
+        {% for post in site.posts %}
+            <div class="post-card">
+                <h2><a target="_blank" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.date | date: "%B %d, %Y" }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
