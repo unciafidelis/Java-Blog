@@ -9,7 +9,7 @@ tags: [estructura]
 <h1>Cheatsheet de Java</h1>  
 
 ### **1️⃣ Listas (ArrayList - Estructura Lineal)**
-<pre><code class="language-python">
+```java
 import java.util.ArrayList; // Importación necesaria
 
 public class EjemploArrayList {
@@ -25,7 +25,7 @@ public class EjemploArrayList {
         System.out.println("Lista después de eliminar: " + lista);
     }
 }
-</code></pre>
+```
 
 ### **2️⃣ Pilas (Stack - Estructura LIFO)**
 ```java
