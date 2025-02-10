@@ -708,3 +708,28 @@ input[type="text"] {
     color: #666;
 }
 
+pre {
+    background: #272822;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Código en línea */
+code {
+    font-family: 'Courier New', monospace;
+    background: #272822;
+    color: #f8f8f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Código dentro de bloques de código */
+pre code {
+    display: block;
+    padding: 10px;
+    white-space: pre-wrap;
+}
