@@ -111,7 +111,7 @@ public class EjemploTreeSet {
 
 ---
 
-## **📌 Declaración de Clases, Atributos, Métodos e Instancias en Java**
+## **Declaración de Clases, Atributos, Métodos e Instancias en Java**
 
 ### **1️⃣ Declaración de una Clase con Constructor, Métodos y Atributos**
 ```java
@@ -153,7 +153,7 @@ public class EjemploPersona {
 
 ---
 
-## **📌 Entrada y Salida de Datos en Java**
+## **Entrada y Salida de Datos en Java**
 
 ### **1️⃣ Leer Datos desde la Terminal con `Scanner`**
 ```java
@@ -179,7 +179,7 @@ public class EntradaDatos {
 
 ---
 
-## **📌 Estructuras de Control**
+## **Estructuras de Control**
 
 ### **1️⃣ Condicional `if-else`**
 ```java
