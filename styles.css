@@ -742,7 +742,7 @@ pre {
     top: 6px;
     right: 6px;
     z-index: 10; /* Asegura que esté sobre el código */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.1);
     border: none;
     cursor: pointer;
     color: #fff;
