@@ -8,6 +8,8 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: java
 
 
 # Opcional: si quieres que los posts tengan un formato de URL específico
