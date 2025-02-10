@@ -733,3 +733,21 @@ pre code {
     padding: 10px;
     white-space: pre-wrap;
 }
+
+.copy-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.copy-btn:hover {
+    background: #0056b3;
+}
+
