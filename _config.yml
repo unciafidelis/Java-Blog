@@ -1,7 +1,7 @@
 # _config.yml
-title: PM Blog
-description: Un blog para la administración de proyectos
-baseurl: "/BlogPM"  # Si tu sitio está en el dominio raíz (ej. https://misitio.com), déjalo vacío
+title: Java Blog
+description: Un blog de apoyo para aprender a programar en JAVA
+baseurl: "/Java-Blog"  # Si tu sitio está en el dominio raíz (ej. https://misitio.com), déjalo vacío
 url: "http://unciafidelis.github.io"  # Tu dominio principal, por ejemplo, https://misitio.com
 markdown: kramdown
 
