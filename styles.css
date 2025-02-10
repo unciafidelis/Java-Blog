@@ -742,16 +742,18 @@ pre code {
 
 .copy-btn {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.6);
     border: none;
     cursor: pointer;
-    color: #ccc;
-    font-size: 18px;
+    color: #fff;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 4px;
 }
 
 .copy-btn:hover {
-    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
 }
 
