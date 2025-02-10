@@ -4,6 +4,11 @@ description: Un blog de apoyo para aprender a programar en JAVA
 baseurl: "/Java-Blog"  # Si tu sitio está en el dominio raíz (ej. https://misitio.com), déjalo vacío
 url: "http://unciafidelis.github.io"  # Tu dominio principal, por ejemplo, https://misitio.com
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 
 # Opcional: si quieres que los posts tengan un formato de URL específico
 # Aquí se utiliza un formato que genera URLs amigables
