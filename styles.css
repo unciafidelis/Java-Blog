@@ -720,6 +720,8 @@ input[type="text"] {
     position: relative;
     width: 100%;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 pre {
@@ -734,11 +736,13 @@ pre {
     box-sizing: border-box;
 }
 
+/* 🔥 Botón bien posicionado ENCIMA del código */
 .copy-btn {
     position: absolute;
-    top: 8px;
-    right: 8px;
-    background: rgba(255, 255, 255, 0.2);
+    top: 6px;
+    right: 6px;
+    z-index: 10; /* Asegura que esté sobre el código */
+    background: rgba(0, 0, 0, 0.6);
     border: none;
     cursor: pointer;
     color: #fff;
@@ -747,6 +751,7 @@ pre {
     border-radius: 4px;
 }
 
+/* 🔥 Efecto al pasar el mouse sobre el botón */
 .copy-btn:hover {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.8);
 }
