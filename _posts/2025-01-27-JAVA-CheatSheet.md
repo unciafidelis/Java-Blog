@@ -6,7 +6,7 @@ categories: [Lenguaje,JAVA]
 tags: [estructura]
 ---
 
-<h1>📌 Cheatsheet de Java</h1>  
+<h1>Cheatsheet de Java</h1>  
 
 ### **1️⃣ Listas (ArrayList - Estructura Lineal)**
 ```java
