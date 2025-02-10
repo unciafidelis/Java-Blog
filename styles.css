@@ -708,36 +708,22 @@ input[type="text"] {
     color: #666;
 }
 
-pre {
-    background: #272822;
-    color: #f8f8f2;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
-    font-size: 1em;
-    line-height: 1.5;
-}
-
-/* Código en línea */
-code {
-    font-family: 'Courier New', monospace;
-    background: #272822;
-    color: #f8f8f2;
-    padding: 2px 5px;
-    border-radius: 3px;
-}
-
-/* Código dentro de bloques de código */
-pre code {
-    display: block;
-    padding: 10px;
-    white-space: pre-wrap;
-}
-
 .code-wrapper {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
+}
+
+pre {
+    position: relative;
+    background: #282c34;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: "Courier New", monospace;
 }
 
 .copy-btn {
@@ -756,4 +742,3 @@ pre code {
 .copy-btn:hover {
     background: rgba(0, 0, 0, 0.8);
 }
-
