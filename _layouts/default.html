@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
         button.innerHTML = '<span class="material-icons">content_copy</span>';
         button.classList.add("copy-btn");
 
-        // Insertar el botón dentro del wrapper
-        wrapper.appendChild(button);
+        // Insertar el código y el botón dentro del wrapper
         block.parentNode.insertBefore(wrapper, block);
+        wrapper.appendChild(button);
         wrapper.appendChild(block);
 
         // Evento para copiar el contenido del código
