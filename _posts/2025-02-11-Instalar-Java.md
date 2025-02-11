@@ -8,7 +8,7 @@ tags: [estructura]
 
 ---
 
-# Comenzando con Java en VS Code
+<h1> Comenzando con Java en VS Code</h1>
 
 Este tutorial te muestra cómo escribir y ejecutar un programa "Hola Mundo" en Java con Visual Studio Code. También cubre algunas funciones avanzadas, que puedes explorar leyendo otros documentos en esta sección.
 
