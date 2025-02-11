@@ -618,7 +618,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-a .button {
+.buttonLink {
     padding: 10px 20px;
     margin: 5px;
     border: none;
@@ -629,7 +629,7 @@ a .button {
     cursor: pointer;
 }
 
-a .button:hover {
+.buttonLink:hover {
     background-color: #0056b3;
 }
 
