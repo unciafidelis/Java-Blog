@@ -2,7 +2,7 @@
 
 layout: post  
 title: "Instalación de JAVA en VS Code"  
-date: 2025-02-05  
+date: 2025-02-11  
 categories: [Lenguaje, JAVA]  
 tags: [estructura]  
 
