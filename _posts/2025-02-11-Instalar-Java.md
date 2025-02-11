@@ -97,7 +97,7 @@ Visual Studio Code también admite proyectos Java más complejos. Consulta [Gest
 
 Puedes usar fragmentos de código para estructurar clases y métodos rápidamente. VS Code también ofrece IntelliSense para autocompletar código y diversas opciones de refactorización.
 
-<video src="https://code.visualstudio.com/images/java-tutorial/edit-code.mp4" autoplay loop muted playsinline controls title="Edición de código fuente">
+<video src="https://code.visualstudio.com/assets/docs/java/java-tutorial/edit-code.mp4" autoplay loop muted playsinline controls title="Edición de código fuente">
 </video>
 
 Para más detalles sobre la edición de código en Java, consulta [Edición en Java](https://code.visualstudio.com/docs/java/java-editing.md).
@@ -106,7 +106,7 @@ Para más detalles sobre la edición de código en Java, consulta [Edición en J
 
 Para ejecutar y depurar código en Java, coloca un punto de interrupción y presiona `kb(workbench.action.debug.start)`, o usa la opción **Ejecutar > Iniciar depuración**. También puedes usar la opción **Ejecutar/Depurar** en el editor. Una vez compilado el código, verás todas tus variables e hilos en la vista **Ejecutar y Depurar**.
 
-<video src="https://code.visualstudio.com/images/java-tutorial/run-debug.mp4" autoplay loop muted playsinline controls title="Ejecución y depuración del programa">
+<video src="https://code.visualstudio.com/assets/docs/java/java-tutorial/run-debug.mp4" autoplay loop muted playsinline controls title="Ejecución y depuración del programa">
 </video>
 
 El depurador también admite funciones avanzadas como [Hot Code Replace](https://code.visualstudio.com/docs/java/java-debugging.md#hot-code-replace) y puntos de interrupción condicionales.
