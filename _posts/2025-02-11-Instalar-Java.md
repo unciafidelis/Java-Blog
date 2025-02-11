@@ -22,9 +22,9 @@ Si encuentras algún problema al seguir este tutorial, puedes contactarnos envia
 
 Para facilitar la configuración, puedes instalar el **Coding Pack para Java**, que incluye VS Code, el Java Development Kit (JDK) y las extensiones esenciales para Java. Este paquete puede utilizarse para una instalación nueva, o para actualizar o reparar un entorno de desarrollo existente.
 
-<a class="button" onclick="pushCodingPackEvent('java', 'win')" href="https://aka.ms/vscode-java-installer-win">Instalar el Coding Pack para Java - Windows</a>
+<a class="buttonLink" onclick="pushCodingPackEvent('java', 'win')" href="https://aka.ms/vscode-java-installer-win">Instalar el Coding Pack para Java - Windows</a>
 
-<a class="button" onclick="pushCodingPackEvent('java', 'mac')" href="https://aka.ms/vscode-java-installer-mac">Instalar el Coding Pack para Java - macOS</a><br>
+<a class="buttonLink" onclick="pushCodingPackEvent('java', 'mac')" href="https://aka.ms/vscode-java-installer-mac">Instalar el Coding Pack para Java - macOS</a><br>
 
 > **Nota**: El Coding Pack para Java solo está disponible para Windows y macOS. Para otros sistemas operativos, deberás instalar manualmente un JDK, VS Code y las extensiones de Java.
 
