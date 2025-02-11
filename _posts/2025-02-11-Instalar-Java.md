@@ -43,7 +43,7 @@ Si ya usas VS Code, puedes agregar soporte para Java instalando el [Extension Pa
 
 El [Extension Pack para Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) proporciona una guía de inicio rápido, consejos para la edición de código y depuración, además de una sección de preguntas frecuentes. Usa el comando **Java: Tips for Beginners** en la paleta de comandos (`kb(workbench.action.showCommands)`) para abrir la guía.
 
-![Comenzando con Java](https://code.visualstudio.com/images/java-tutorial/getting-started.png)
+![Comenzando con Java](https://code.visualstudio.com/assets/docs/java/java-tutorial/getting-started.png)
 
 También puedes instalar las extensiones por separado. La **Guía de Extensiones** está disponible para ayudarte y puedes acceder a ella con el comando **Java: Extensions Guide**.
 
@@ -79,16 +79,16 @@ Si nunca has instalado un JDK y necesitas hacerlo, te recomendamos elegir entre 
 
 Crea una carpeta para tu programa en Java y ábrela con VS Code. Luego, en VS Code, crea un nuevo archivo y guárdalo con el nombre `Hello.java`. Cuando abras el archivo, el servidor de lenguaje Java se iniciará automáticamente y verás un ícono de carga en la barra de estado. Una vez finalizada la carga, puedes pasar el cursor sobre el ícono para confirmar que el proceso ha finalizado correctamente.
 
-<video src="https://code.visualstudio.com/images/java-tutorial/JavaHelloWorld.Standalone.mp4" autoplay loop muted playsinline controls title="Creación de un archivo de código fuente">
+<video src="https://code.visualstudio.com/assets/docs/java/java-tutorial/JavaHelloWorld.Standalone.mp4" autoplay="" loop="" muted="" playsinline="" controls="" title="Creating a source code file">
 </video>
 
 > **Nota**: Si abres un archivo Java en VS Code sin abrir su carpeta, el servidor de lenguaje Java podría no funcionar correctamente.
 
-VS Code también intentará determinar el paquete correcto para el nuevo archivo y completarlo desde una plantilla. Consulta [Crear un nuevo archivo](/docs/java/java-editing.md#create-new-file).
+VS Code también intentará determinar el paquete correcto para el nuevo archivo y completarlo desde una plantilla. Consulta [Crear un nuevo archivo](https://code.visualstudio.com/docs/java/java-editing.md#create-new-file).
 
 También puedes crear un proyecto en Java usando el comando **Java: Create Java Project** desde la paleta de comandos (`kb(workbench.action.showCommands)`). Luego de seleccionar el comando, se te pedirá la ubicación y el nombre del proyecto. También puedes elegir tu herramienta de construcción desde este comando.
 
-<video src="https://code.visualstudio.com/images/java-tutorial/JavaHelloWorld.Project.mp4" autoplay loop muted playsinline controls title="Crear un proyecto Java">
+<video src="https://code.visualstudio.com/assets/docs/java/java-tutorial/JavaHelloWorld.Project.mp4" autoplay="" loop="" muted="" playsinline="" controls="" title="Create Java Project">
 </video>
 
 Visual Studio Code también admite proyectos Java más complejos. Consulta [Gestión de proyectos](https://code.visualstudio.com/docs/java/java-project.md).
