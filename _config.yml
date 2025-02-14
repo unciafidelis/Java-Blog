@@ -11,7 +11,6 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: java
 
-
 # Opcional: si quieres que los posts tengan un formato de URL específico
 # Aquí se utiliza un formato que genera URLs amigables
 permalink: /:year/:month/:day/:title.html
