@@ -775,3 +775,36 @@ pre {
 a {
   text-decoration: none;
 }
+
+/* 🔥 Estilos para código resaltado con Rouge */
+pre, code {
+    font-family: "Courier New", monospace;
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    display: block;
+}
+
+/* 🔹 Resaltado de sintaxis */
+.highlight .k, /* Palabras clave */
+.highlight .kd, /* Modificadores */
+.highlight .kn, /* Operadores */
+.highlight .kt { color: #c678dd; } /* Morado */
+
+.highlight .nc, /* Clases */
+.highlight .nf { color: #61afef; } /* Azul */
+
+.highlight .s,  /* Strings */
+.highlight .sc { color: #98c379; } /* Verde */
+
+.highlight .mi, /* Números */
+.highlight .m { color: #d19a66; } /* Naranja */
+
+.highlight .c,  /* Comentarios */
+.highlight .cm { color: #5c6370; font-style: italic; } /* Gris */
+
+.highlight .o, /* Operadores */
+.highlight .p { color: #e06c75; } /* Rojo */
+
