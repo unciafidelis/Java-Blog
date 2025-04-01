@@ -1,9 +1,12 @@
+---
 
+layout: post  
+title: "Estructura de datos en JAVA"  
+date: 2025-04-1  
+categories: [Lenguaje, JAVA]  
+tags: [estructura]  
 
-Claro, aquí tienes la información proporcionada en formato Markdown:
-
-```markdown
-# Ejemplos de Estructuras de Datos en Java
+---
 
 En Java, las estructuras de datos como **arreglos**, **listas**, **tuplas**, **conjuntos** y **diccionarios** tienen sus propias características y métodos asociados. A continuación, te proporciono ejemplos de cada una de estas estructuras y algunas de las funciones más comunes que puedes usar para operar con ellas.
 
@@ -220,4 +223,3 @@ public class Main {
 - **Diccionarios** (`HashMap`): Almacenan pares clave-valor y permiten agregar, eliminar y acceder a los valores mediante sus claves.
 ```
 
-Este formato es ideal para ser usado en plataformas como GitHub o cualquier editor que soporte Markdown. Puedes copiar y pegar este texto en tu archivo Markdown para tener los ejemplos y explicaciones bien estructurados.
