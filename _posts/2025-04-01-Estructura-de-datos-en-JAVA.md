@@ -51,7 +51,7 @@ public class Main {
 
 ## 2. Listas (ArrayList)
 
-`ArrayList` es una estructura de datos que permite agregar, eliminar y modificar elementos de manera dinámica.
+*ArrayList* es una estructura de datos que permite agregar, eliminar y modificar elementos de manera dinámica.
 
 **Ejemplo:**
 
@@ -93,9 +93,9 @@ public class Main {
 
 ## 3. Tuplas (No existe una clase Tuple en Java, pero se puede simular con clases o con `AbstractMap.SimpleEntry`)
 
-Java no tiene un tipo de dato llamado "tupla" como en otros lenguajes. Sin embargo, se puede simular con una clase personalizada o con `AbstractMap.SimpleEntry` para almacenar pares clave-valor.
+Java no tiene un tipo de dato llamado "tupla" como en otros lenguajes. Sin embargo, se puede simular con una clase personalizada o con *AbstractMap.SimpleEntry* para almacenar pares clave-valor.
 
-**Ejemplo (usando `AbstractMap.SimpleEntry`):**
+**Ejemplo (usando *AbstractMap.SimpleEntry*):**
 
 ```java
 import java.util.AbstractMap;
@@ -119,7 +119,7 @@ public class Main {
 
 ## 4. Conjuntos (HashSet)
 
-`HashSet` es una estructura de datos que no permite elementos duplicados. Proporciona operaciones para agregar, eliminar y comprobar la existencia de elementos.
+*HashSet* es una estructura de datos que no permite elementos duplicados. Proporciona operaciones para agregar, eliminar y comprobar la existencia de elementos.
 
 **Ejemplo:**
 
@@ -165,7 +165,7 @@ public class Main {
 
 ## 5. Diccionarios (HashMap)
 
-`HashMap` es una estructura de datos que almacena pares clave-valor. Permite agregar, eliminar y acceder a valores a través de sus claves.
+*HashMap* es una estructura de datos que almacena pares clave-valor. Permite agregar, eliminar y acceder a valores a través de sus claves.
 
 **Ejemplo:**
 
@@ -217,9 +217,9 @@ public class Main {
 ## Resumen
 
 - **Arreglos**: Tienen tamaño fijo. Se accede y modifica mediante índices.
-- **Listas** (`ArrayList`): Dinámicas, permiten agregar, eliminar y modificar elementos.
-- **Tuplas**: No hay una implementación directa, pero puedes usar clases como `AbstractMap.SimpleEntry`.
-- **Conjuntos** (`HashSet`): No permiten duplicados. Se puede agregar, eliminar y verificar existencia de elementos.
-- **Diccionarios** (`HashMap`): Almacenan pares clave-valor y permiten agregar, eliminar y acceder a los valores mediante sus claves.
-```
+- **Listas** (*ArrayList*): Dinámicas, permiten agregar, eliminar y modificar elementos.
+- **Tuplas**: No hay una implementación directa, pero puedes usar clases como *AbstractMap.SimpleEntry*.
+- **Conjuntos** (*HashSet*): No permiten duplicados. Se puede agregar, eliminar y verificar existencia de elementos.
+- **Diccionarios** (*HashMap*): Almacenan pares clave-valor y permiten agregar, eliminar y acceder a los valores mediante sus claves.
+
 
